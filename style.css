@@ -114,3 +114,31 @@ button[class^="button-item-"] {
 .btn-desc {
     text-align: center;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-main {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 770px;
+    color: #1F2937;
+    margin-top: 80px;
+}
+
+.quote-footer {
+    display: flex;
+    justify-content: end;
+    color: black;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
