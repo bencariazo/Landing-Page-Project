@@ -181,3 +181,13 @@ button[class^="button-item-"] {
 .action .signup {
     border: 1px solid white;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color: #1F2937;
+    color: white;
+    /* padding: 18px; */
+}
