@@ -142,3 +142,46 @@ button[class^="button-item-"] {
     font-weight: bold;
     margin-bottom: 70px;
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 60px;
+}
+
+.footer {
+    width: 900px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.footer-text,
+.btn-signup {
+    margin: 60px 70px;
+}
+.footer-text {
+    /* width: 770px; */
+    /* flex: 1; */
+    color: white;
+}
+
+.footer-text-main {
+    font-size: 28px;
+}
+
+.footer-text-secondary {
+    font-size: 18px;
+}
+
+.footer .signup {
+    border: 1px solid white;
+}
+
+/* .footer button {
+    display: block;
+} */
