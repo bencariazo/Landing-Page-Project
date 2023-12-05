@@ -68,10 +68,49 @@ ul {
     padding: 0;
 }
 
-button {
+button.signup {
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
     padding: 6px 20px;
     color: white;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-info {
+    margin-top: 28px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 600;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin-bottom: 100px;
+}
+
+.button-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 160px;
+}
+
+button[class^="button-item-"] {
+    border: 2px solid #3882F6;
+    height: 150px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.btn-desc {
+    text-align: center;
 }
